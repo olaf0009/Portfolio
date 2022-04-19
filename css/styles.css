@@ -1,0 +1,336 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*=========== MY CSS =============*/
+
+/*=================================
+        Mobile first
+==================================*/
+
+body {
+    background-color: #9A9A9A;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', Arial, Helvetica, sans-serif, Cochin, sans-serif;
+}
+body, button,input, textarea {
+    font-family: 'Outfit', Arial, Helvetica, sans-serif, Cochin, sans-serif;
+}
+
+a, a:link, a:visited {
+    color:white;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color:wheat;
+}
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 44px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 39px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.section--intro{
+    margin-bottom: 40px;
+    text-align:center;
+}
+.section--intro p {
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 42px;
+    margin-bottom: 42px;
+    text-align:left;
+}
+.section--intro button {
+    font-weight: bold;
+    height: auto;
+    margin: 15px;
+    width: 253px;
+    
+
+}
+.section--services p{
+    font-size: 21px;
+    line-height: 1.33;
+    margin-bottom: 42px;
+    text-align:left;
+}
+.section--about p{
+    font-size: 21px;
+    line-height: 1.33;
+    margin-bottom: 42px;
+}
+.section--about {
+   /*border-bottom: 1px solid white;*/
+    margin-bottom: 40px;
+}
+button {
+    background-color: #4A7116;
+    border: none;
+    border-radius: 8px;
+    color:white;
+    font-size: 21px;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 15px;
+    transition: all 0.3s;
+    width: 172px;
+   
+}
+button:hover {
+    background-color: tomato;
+    color:white;
+    cursor:pointer;
+}
+img {
+    margin-bottom: 42px;
+    max-width: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+img:hover {
+    transform: scale(1.06);
+}
+
+header {
+    background-color:#707070;
+}
+footer {
+    background-color:#707070;
+}
+header .container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+main .container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+footer .container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+.container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*********** Header **************/
+header .container {
+    text-align: center;
+}
+header .container img {
+    height: auto;
+    margin-bottom: 16px;
+    width: 84px;
+}
+header nav ul li a {
+    color:white;
+    display: block;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 16px;
+    padding: 15px;
+    text-decoration:none;
+    
+}
+/************* Services ************/
+.section--services div{
+    background-color: #707070;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 20px;
+    text-align:center;
+}
+.section--services {
+    margin-top: 15px;
+}
+
+.section--services img {
+    margin-bottom:16px;
+}
+.section--contact {
+    font-size: 21px;
+    padding: 15px 15px 15px 15px;
+}
+.section--contact div {
+    margin-bottom: 40px;
+    padding-right: 20px;
+    /*background-color: lime;*/
+}
+form {
+    margin-bottom: 40px;
+    padding-right: 15px;
+}
+form input {
+    background: none;
+    border: 1px solid white;
+    font-size: 21px;
+    margin-bottom: 40px;
+    padding: 15px;
+    width: 100%;
+}
+form input::placeholder {
+    color: rgba(255,255,255,0.5);
+}
+form button {
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    width: 253px;
+}
+label {
+    line-height: 1.33;
+    padding: 15px;
+}
+textarea {
+    background: none;
+    border: 1px solid white;
+    font-size: 21px;
+    line-height: 1.33;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: 100%;
+}
+textarea::placeholder {
+    color: rgba(255,255,255,0.5);
+}
+
+/*=================================
+        Tablet
+==================================*/
+@media screen and (min-width: 840px){
+    .container {
+        margin: 0 auto; /* Centers my container */
+        padding-left: 0;
+        padding-right: 0;
+        width: 800px;
+    }
+    header nav ul {
+        display: flex; 
+    }
+    header nav ul li {
+        flex-grow: 1;
+        
+
+    }
+     h2 {
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 16px;
+    }
+    .section--about p {
+        font-size: 18px;
+        line-height: 1.33;
+        margin-bottom: 0;
+    }
+    .section--about-grid {
+        align-items: center;
+        column-gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        
+    }
+    .section--about-grid > div:nth-child(1) {
+        grid-column: 2 / 3;
+    }
+    .section--about-grid > div:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 1/2;
+
+    }
+    .section--services-grid {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        
+    }
+    .section--services p {
+        font-size: 18px;
+        line-height: 1.33;
+    }
+    .section--services div {
+        background-color: #707070;
+        margin-bottom: 20px;
+        padding: 40px 20px 20px 20px;
+        text-align:center;
+    }
+
+}
+/*=================================
+        Desktop
+==================================*/
+@media screen and (min-width: 1280px){
+    .container {
+        margin: 0 auto; /* Centers my container */
+        padding-left: 0;
+        padding-right:0;
+        width: 1280px;
+    }
+    header .container {
+        align-items:center;
+        display: flex;
+    }
+    header .container nav {
+        flex-grow: 1;
+        text-align: right;
+    
+    }
+}
